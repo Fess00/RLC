@@ -2,7 +2,7 @@
   "name": "rlcserver",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Fess00/RLC/issues"
   },
-  "homepage": "https://github.com/Fess00/RLC#readme"
+  "homepage": "https://github.com/Fess00/RLC#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "http": "^0.0.1-security"
+  }
 }
